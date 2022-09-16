@@ -1,0 +1,354 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 5FFDB730
+P 1100 1350
+F 0 "BT1" H 1218 1446 50  0000 L CNN
+F 1 "Battery_Cell" H 1218 1355 50  0000 L CNN
+F 2 "Binary_Kitchen:BatteryHolder_Keystone_2460_1xAA_SMD" V 1100 1410 50  0001 C CNN
+F 3 "~" V 1100 1410 50  0001 C CNN
+	1    1100 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5FFDC2B9
+P 1100 1450
+F 0 "#PWR02" H 1100 1200 50  0001 C CNN
+F 1 "GND" H 1105 1277 50  0000 C CNN
+F 2 "" H 1100 1450 50  0001 C CNN
+F 3 "" H 1100 1450 50  0001 C CNN
+	1    1100 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V0 #PWR01
+U 1 1 5FFDC4AD
+P 1100 1150
+F 0 "#PWR01" H 1100 1000 50  0001 C CNN
+F 1 "+3V0" H 1115 1323 50  0000 C CNN
+F 2 "" H 1100 1150 50  0001 C CNN
+F 3 "" H 1100 1150 50  0001 C CNN
+	1    1100 1150
+	1    0    0    -1  
+$EndComp
+Text GLabel 1900 1050 3    50   Input ~ 0
+VCC
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5FFDCDE1
+P 1900 1050
+F 0 "#FLG01" H 1900 1125 50  0001 C CNN
+F 1 "PWR_FLAG" H 1900 1223 50  0000 C CNN
+F 2 "" H 1900 1050 50  0001 C CNN
+F 3 "~" H 1900 1050 50  0001 C CNN
+	1    1900 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5FFDD1A5
+P 2350 1050
+F 0 "#FLG02" H 2350 1125 50  0001 C CNN
+F 1 "PWR_FLAG" H 2350 1223 50  0000 C CNN
+F 2 "" H 2350 1050 50  0001 C CNN
+F 3 "~" H 2350 1050 50  0001 C CNN
+	1    2350 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V0 #PWR03
+U 1 1 5FFDD72C
+P 2350 1050
+F 0 "#PWR03" H 2350 900 50  0001 C CNN
+F 1 "+3V0" H 2365 1223 50  0000 C CNN
+F 2 "" H 2350 1050 50  0001 C CNN
+F 3 "" H 2350 1050 50  0001 C CNN
+	1    2350 1050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG03
+U 1 1 5FFDDF0C
+P 2800 1050
+F 0 "#FLG03" H 2800 1125 50  0001 C CNN
+F 1 "PWR_FLAG" H 2800 1223 50  0000 C CNN
+F 2 "" H 2800 1050 50  0001 C CNN
+F 3 "~" H 2800 1050 50  0001 C CNN
+	1    2800 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5FFDE203
+P 2800 1050
+F 0 "#PWR04" H 2800 800 50  0001 C CNN
+F 1 "GND" H 2805 877 50  0000 C CNN
+F 2 "" H 2800 1050 50  0001 C CNN
+F 3 "" H 2800 1050 50  0001 C CNN
+	1    2800 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DIP_x01 SW1
+U 1 1 5FFDEC1B
+P 3900 1000
+F 0 "SW1" H 3900 1267 50  0000 C CNN
+F 1 "SW_DIP_x01" H 3900 1176 50  0000 C CNN
+F 2 "Binary_Kitchen:Push_Button" H 3900 1000 50  0001 C CNN
+F 3 "~" H 3900 1000 50  0001 C CNN
+	1    3900 1000
+	1    0    0    -1  
+$EndComp
+Text GLabel 3600 1000 0    50   Input ~ 0
+VCC
+$Comp
+L power:+3V0 #PWR05
+U 1 1 5FFDF011
+P 4200 1000
+F 0 "#PWR05" H 4200 850 50  0001 C CNN
+F 1 "+3V0" V 4215 1128 50  0000 L CNN
+F 2 "" H 4200 1000 50  0001 C CNN
+F 3 "" H 4200 1000 50  0001 C CNN
+	1    4200 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 60FDCBB8
+P 8000 4050
+F 0 "D2" H 7993 4267 50  0000 C CNN
+F 1 "LED" H 7993 4176 50  0000 C CNN
+F 2 "Binary_Kitchen:5mm_SMD-Pad" H 8000 4050 50  0001 C CNN
+F 3 "~" H 8000 4050 50  0001 C CNN
+	1    8000 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Q_NPN_CBE Q1
+U 1 1 60FDD940
+P 7250 4600
+F 0 "Q1" H 7441 4646 50  0000 L CNN
+F 1 "Q_NPN_CBE" H 7441 4555 50  0000 L CNN
+F 2 "Binary_Kitchen:TO-92L_SMD_HandSolder" H 7450 4700 50  0001 C CNN
+F 3 "~" H 7250 4600 50  0001 C CNN
+	1    7250 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 60FE307E
+P 6550 2350
+F 0 "R1" H 6620 2396 50  0000 L CNN
+F 1 "360R" H 6620 2305 50  0000 L CNN
+F 2 "Binary_Kitchen:R_Axial_DIN0411_L9.9mm_D3.6mm_P20.32mm_Horizontal_SMD" V 6480 2350 50  0001 C CNN
+F 3 "~" H 6550 2350 50  0001 C CNN
+	1    6550 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 3100 6550 2750
+Wire Wire Line
+	6550 2200 6550 1950
+Wire Wire Line
+	6550 1700 7350 1700
+Wire Wire Line
+	7350 1700 7350 3100
+Wire Wire Line
+	7050 4600 6550 4600
+Wire Wire Line
+	6550 4600 6550 3500
+Text GLabel 6350 1700 0    50   Input ~ 0
+VCC
+$Comp
+L power:GND #PWR06
+U 1 1 60FE4E6E
+P 7800 5150
+F 0 "#PWR06" H 7800 4900 50  0001 C CNN
+F 1 "GND" H 7805 4977 50  0000 C CNN
+F 2 "" H 7800 5150 50  0001 C CNN
+F 3 "" H 7800 5150 50  0001 C CNN
+	1    7800 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 4750 8150 4950
+Wire Wire Line
+	8150 4950 7800 4950
+Wire Wire Line
+	7800 4950 7800 5150
+Wire Wire Line
+	7350 4800 7350 4950
+Wire Wire Line
+	7350 4950 7800 4950
+Connection ~ 7800 4950
+Wire Wire Line
+	6350 1700 6550 1700
+Connection ~ 6550 1700
+$Comp
+L Device:D_Zener D3
+U 1 1 612D2D59
+P 8800 4600
+F 0 "D3" V 8754 4680 50  0000 L CNN
+F 1 "D_Zener" V 8845 4680 50  0000 L CNN
+F 2 "Binary_Kitchen:D_A-405_P12.70mm_Horizontal_SMD" H 8800 4600 50  0001 C CNN
+F 3 "~" H 8800 4600 50  0001 C CNN
+	1    8800 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 612D3560
+P 8450 4600
+F 0 "C1" H 8565 4646 50  0000 L CNN
+F 1 "10nF" H 8565 4555 50  0000 L CNN
+F 2 "Binary_Kitchen:5mm_SMD-Pad_capacitor" H 8488 4450 50  0001 C CNN
+F 3 "~" H 8450 4600 50  0001 C CNN
+	1    8450 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 4750 8250 4750
+Connection ~ 8450 4750
+Wire Wire Line
+	8450 4750 8800 4750
+$Comp
+L Device:LED D1
+U 1 1 612D48D8
+P 7600 4050
+F 0 "D1" H 7593 4267 50  0000 C CNN
+F 1 "LED" H 7593 4176 50  0000 C CNN
+F 2 "Binary_Kitchen:5mm_SMD-Pad" H 7600 4050 50  0001 C CNN
+F 3 "~" H 7600 4050 50  0001 C CNN
+	1    7600 4050
+	-1   0    0    1   
+$EndComp
+Connection ~ 8450 4450
+Wire Wire Line
+	8450 4450 8800 4450
+Wire Wire Line
+	7350 3500 7350 4050
+Wire Wire Line
+	8150 4050 8150 4450
+Wire Wire Line
+	8150 4450 8250 4450
+Wire Wire Line
+	7850 4050 7750 4050
+Wire Wire Line
+	7450 4050 7350 4050
+Connection ~ 7350 4050
+Wire Wire Line
+	7350 4050 7350 4250
+$Comp
+L Device:Q_NPN_CBE Q_b1
+U 1 1 6156CFC7
+P 6900 4950
+F 0 "Q_b1" H 7091 4996 50  0000 L CNN
+F 1 "Q_NPN_CBE (optional)" H 7091 4905 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7100 5050 50  0001 C CNN
+F 3 "~" H 6900 4950 50  0001 C CNN
+	1    6900 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 4250 7000 4250
+Wire Wire Line
+	7000 4250 7000 4750
+Connection ~ 7350 4250
+Wire Wire Line
+	7350 4250 7350 4400
+Wire Wire Line
+	6550 4600 6550 4950
+Wire Wire Line
+	6550 4950 6700 4950
+Connection ~ 6550 4600
+Wire Wire Line
+	7000 5150 7350 5150
+Wire Wire Line
+	7350 5150 7350 4950
+Connection ~ 7350 4950
+$Comp
+L Device:C C_b1
+U 1 1 6156E7BE
+P 8250 4600
+F 0 "C_b1" H 8365 4646 50  0000 L CNN
+F 1 "10nF (optional)" H 8365 4555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8288 4450 50  0001 C CNN
+F 3 "~" H 8250 4600 50  0001 C CNN
+	1    8250 4600
+	1    0    0    -1  
+$EndComp
+Connection ~ 8250 4450
+Wire Wire Line
+	8250 4450 8450 4450
+Connection ~ 8250 4750
+Wire Wire Line
+	8250 4750 8450 4750
+$Comp
+L Device:D_Zener D_b3
+U 1 1 6156ED7C
+P 9400 4600
+F 0 "D_b3" V 9354 4680 50  0000 L CNN
+F 1 "D_Zener (optional)" V 9445 4680 50  0000 L CNN
+F 2 "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9400 4600 50  0001 C CNN
+F 3 "~" H 9400 4600 50  0001 C CNN
+	1    9400 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8800 4750 9400 4750
+Connection ~ 8800 4750
+Wire Wire Line
+	8800 4450 9400 4450
+Connection ~ 8800 4450
+$Comp
+L Device:R R_b1
+U 1 1 61570122
+P 5750 2350
+F 0 "R_b1" H 5820 2396 50  0000 L CNN
+F 1 "360R (optional)" H 5820 2305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5680 2350 50  0001 C CNN
+F 3 "~" H 5750 2350 50  0001 C CNN
+	1    5750 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 1950 5750 1950
+Wire Wire Line
+	5750 1950 5750 2200
+Connection ~ 6550 1950
+Wire Wire Line
+	6550 1950 6550 1700
+Wire Wire Line
+	5750 2500 5750 2750
+Wire Wire Line
+	5750 2750 6550 2750
+Connection ~ 6550 2750
+Wire Wire Line
+	6550 2750 6550 2500
+$Comp
+L Device:Transformer_1P_1S T1
+U 1 1 60FDEB63
+P 6950 3300
+F 0 "T1" H 6950 3681 50  0000 C CNN
+F 1 "Transformer_1P_1S" H 6950 3590 50  0000 C CNN
+F 2 "Binary_Kitchen:SolderWire-0.1sqmm_1x04_P3.6mm_D0.4mm_OD1mm_SMD" H 6950 3300 50  0001 C CNN
+F 3 "~" H 6950 3300 50  0001 C CNN
+	1    6950 3300
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
