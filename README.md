@@ -1,8 +1,8 @@
-# Owl Thief - THT
+# Owl Thief
 
 A simple joule thief circuit on the back of an owl. If you solder everything right, you can empty old batteries and make the eyes glow orange.
 
-<img src="images/PXL_20211203_174506474.jpg" width=300px alt="Owl Thief - THT Version"> <img src="images/PXL_20211203_174428316" width=300px alt="Owl Thief - THT Version">
+<img src="images/PXL_20211203_174506474.jpg" width=300px alt="Owl Thief - THT Version"> <img src="images/PXL_20211203_174428316.jpg" width=300px alt="Owl Thief - THT Version">
 
 - Status: **Complete**
 - Difficulty: **2/5**
