@@ -1,12 +1,12 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,7.0.10*%
-%TF.CreationDate,2024-03-12T15:31:41+01:00*%
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.7-1.fc40*%
+%TF.CreationDate,2025-01-06T11:16:26+01:00*%
 %TF.ProjectId,owlThief,6f776c54-6869-4656-962e-6b696361645f,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L1,Top*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 7.0.10) date 2024-03-12 15:31:41*
+G04 Created by KiCad (PCBNEW 8.0.7-1.fc40) date 2025-01-06 11:16:26*
 %MOMM*%
 %LPD*%
 G01*
@@ -15,8 +15,8 @@ G04 APERTURE LIST*
 %ADD10C,0.010000*%
 %TD*%
 G04 APERTURE END LIST*
-%TO.C,Ref\u002A\u002A*%
 D10*
+%TO.C,Ref\u002A\u002A*%
 X226154039Y-50415798D02*
 X226463052Y-50528153D01*
 X226737134Y-50702310D01*
